@@ -1,0 +1,145 @@
+ /* CSS for screens larger than 768px */
+
+body{
+	/* font-family: 'Fira Sans', sans-serif; */
+	
+  font-family: 'Mulish', sans-serif;
+  }
+  .color-overlay {
+	background-color:black ;
+	/* opacity: 1;  */
+	height: 100%;
+  }
+  
+  hr{
+	width:30px;
+	padding: 2px;
+	margin-bottom: 10vh;
+  }
+  .center {
+	position: absolute;
+	top: 40%;
+	width: 25%;
+	text-align:left; 
+	padding: 50px;
+	margin-left: 10%;
+	color: #fff;
+	margin-top: -10%;
+  }
+  
+  .nopadding{
+	padding: 0%;
+  }
+  .center h1{
+	font-weight: bold;
+  }
+  
+  .cards .hr{
+	margin-top: 5vh;
+  }
+  
+  .color-overlay img { 
+	color: black;
+	width: 100%;
+	height: 500px;
+	opacity: 0.2;
+	z-index: -1;
+  }
+  
+  .image-text {
+	position: relative;
+	font-size: 15px;
+  }
+  
+  .card{
+	border: none;
+  }
+  
+  .img-overlay {
+	position: relative;
+  }
+  
+  .color-overlay img {
+	width: 100%;
+  }
+  
+  .img-overlay .overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* background-color: rgba(0, 0, 0, 0.5); */
+	color: #fff;
+	padding: 20px;
+	text-align: left;
+  }
+  
+  /* CSS for screens smaller than 768px */
+  @media only screen and (max-width: 767px) {
+	/* Navigation */
+	.navbar-brand img {
+	  height: 32px;
+	}
+	.navbar-toggler {
+	  padding: 4px 8px;
+	}
+	.navbar-nav {
+	  margin-top: 10px;
+	}
+	.navbar-nav .nav-item {
+	  margin-right: 0;
+	}
+	.navbar-collapse {
+	  border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.navbar-nav .nav-link {
+	  padding: 8px 0 !important;
+	}
+	.navbar-nav .nav-item:last-child .nav-link {
+	  border-radius: 0 0 4px 4px;
+	}
+  
+	/* Overlay 1 */
+	.center {
+	  text-align: center;
+	}
+	.img-text {
+	  font-size: 48px;
+	}
+	.image-text {
+	  font-size: 10px;
+	}
+  
+	/* Cards */
+	.container {
+	  width: 100%;
+	  flex-direction: column;
+	}
+  
+	.card {
+	  margin: 10px 0;
+	  width: 100%;
+	  overflow: hidden;
+	}
+  
+	/* .lineBreak{
+	  width: 10px;
+	  height: 50px;
+	  color:white;
+	} */
+	/* Overlay 2 */
+	.middle {
+	  top: 40%;
+	}
+	.middle h1 {
+	  font-size: 28px;
+	}
+	.middle p {
+	  font-size: 14px;
+	  margin-bottom: 20px;
+	}
+  
+	.abovefooter{
+	  flex-direction: column;
+	}
+  }
